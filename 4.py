@@ -20,7 +20,6 @@ print(arr)
 arr.remove(0)
 
 
-
 # Tuples
 my_tuple = (1, 2, 3)
 print("Second element:", my_tuple[1])
