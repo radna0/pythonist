@@ -35,3 +35,6 @@ v3 - chua commit
 <!-- bo thay doi de giai quyet mau thuan -->
 
 git stash
+
+
+
