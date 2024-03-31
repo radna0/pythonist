@@ -16,4 +16,4 @@ git commit -m "add photo"
 
 <!-- day code de co phien ban moi -->
 pit push (branch)
-bach beu
+bach beu and nam beu
