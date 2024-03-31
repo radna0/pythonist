@@ -1,11 +1,16 @@
 
 # # # For loop
 
+
 # # # # # # # # # for i in range([start], [end], [step]):
 # # # # # # # # #  [noi_dung_vong_lap]
 # # # # # # # # #  (break)
 # # # # # # # # #  (continue)
 
+# diem bat dau cua vong lap luon luon la i = 0
+# vi tri i = vi tri hien tai - 1
+
+# vi tri i cua cac vong lap trong ngon ngu = vi tri hien tai - 1
 # tong [0,3) hoac [0,2]
 for i in range(3):
     print(i)
