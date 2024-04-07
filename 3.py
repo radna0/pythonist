@@ -196,79 +196,23 @@
 # print(total)
 
 # 3.Tinh tong cac so tu 0 den 10 la so le
-x = int(input("so: "))
-y = int(input("so: "))
-total = 0
-while x <= y:
-    if x % 2 == 1:
-        total += x
-        print("la so le", total)
-    x += 1
+# x = int(input("so: "))
+# y = int(input("so: "))
+# total = 0
+# while x <= y:
+#     if x % 2 == 1:
+#         total += x
+#         print("la so le", total)
+#     x += 1
 
-while x <= y:
-    if x % 2 != 0:
-        total += x
-        print("la so le", total)
+# while x <= y:
+#     if x % 2 != 0:
+#         total += x
+#         print("la so le", total)
 
-while x <= y:
-    if not (x % 2 == 0):
-        total += x
-        print("la so le", total)
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-
-# # # Function
-
-# Vi du:
-# x = input("Nhap vao so x: ")
-# y = int(x)
-# str_y = str(y)
-# print("So vua nhap la: ", str_y)
-
-
-# # # # # # # # # def [ten_ham]([tham_so_1], [tham_so_2], ...):
-# # # # # # # # #   [noi_dung_ham]
-# # # # # # # # #   (return [gia_tri_tra_ve])
-
-#  phuong trinh/ham chuyen doi input str -> int
-
-# def input_to_int(input_str):
-#     return int(input(input_str))
-
-
-# nam_sinh = input_to_int("Nhap vao nam sinh: ")
-
-
-# def check_even(num):
-#     return num % 2 == 0
-
-
-# tuoi = input_to_int("Nhap vao so tuoi: ")
-# is_even = check_even(tuoi)
-# if is_even:
-#     print("So tuoi la so chan")
-# else:
-#     print("So tuoi la so le")
-
-
-# def check_age(age):
-#     if age < 20:
-#         print("nguoi do tre")
-#     elif age > 40:
-#         print("nguoi do gia")
-#     else:
-#         print("nguoi do la nguoi trung nien")
-
-
-# def compute_total(start, end, step=1):
-#     total = 0
-#     for i in range(start, end + 1, step):
-#         total += i
-#     return total
-
-
-#
+# while x <= y:
+#     if not (x % 2 == 0):
+#         total += x
+#         print("la so le", total)
+for i in range(5):
+    print("omg")
