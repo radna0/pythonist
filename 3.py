@@ -196,24 +196,24 @@
 # print(total)
 
 # 3.Tinh tong cac so tu 0 den 10 la so le
-x = int(input("so: "))
-y = int(input("so: "))
-total = 0
-while x <= y:
-    if x % 2 == 1:
-        total += x
-        print("la so le", total)
-    x += 1
+# x = int(input("so: "))
+# y = int(input("so: "))
+# total = 0
+# while x <= y:
+#     if x % 2 == 1:
+#         total += x
+#         print("la so le", total)
+#     x += 1
 
-while x <= y:
-    if x % 2 != 0:
-        total += x
-        print("la so le", total)
+# while x <= y:
+#     if x % 2 != 0:
+#         total += x
+#         print("la so le", total)
 
-while x <= y:
-    if not (x % 2 == 0):
-        total += x
-        print("la so le", total)
+# while x <= y:
+#     if not (x % 2 == 0):
+#         total += x
+#         print("la so le", total)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -272,3 +272,5 @@ while x <= y:
 
 
 #
+for i in range (5):
+    print("lap lan thu", i + 6)
